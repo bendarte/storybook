@@ -1,0 +1,28 @@
+/* LoginButton.module.css */
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Grön bakgrund */
+    border: none;
+    color: white; /* Vit text */
+    padding: 10px 20px; /* Lite padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Rundade hörn */
+    transition: background-color 0.3s ease; /* Mjuk övergång */
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Lite mörkare grön på hover */
+  }
+  
